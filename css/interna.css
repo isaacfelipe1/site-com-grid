@@ -1,0 +1,11 @@
+.link{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+.link:hover{
+    background-color: #5d98c4d5;
+}
+@media (max-width: 836px) {
+
+}

@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.limpar{
+    clear: both;
+}
+#menuLateral{
+    height:600px ;
+    width: 25%;
+    border: 1px solid black;
+    margin-top: 1%;
+    margin-left: 0.7%;
+    float: left;
+    background-color: #54A0DC;
+    color: #fff;
+
+}
+
+.interna{
+    width: 45%;
+    height: 95%;
+    float: left; 
+    margin-top: 1%;
+    margin-left: 3%;
+    
+    
+}
+#menu{
+    display: flex;
+    background-color:#54A0DC;
+    padding: 20px;
+    margin-top: 50px;
+    color: #F6F6F6;
+   
+}
+
+#menu ul{
+    background: #54A0DC;
+    width: 99%;
+    height: 50px;
+    list-style: none;
+}
+#menu ul li{
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+}
+#menu ul li a{
+    color: white;
+    font-family: "Comic Sans MS";
+    font-size: 18px;
+    float: left;
+    padding: 12px 45px ;
+    list-style: none;
+    text-decoration: none;
+    
+
+}
+#menu ul li a:hover{
+    background: #5d98c4d5;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flex-item{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-gap: 10px;
+    
+}
+.grid-item{
+    text-align: center;
+    background-color: #E8EEF0;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+   
+}
+@media (max-width: 1200px) {
+    #menu{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid  #000;
+        padding: 40px;
+        
+    }
+    #menu ul li{
+        display:inline;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    #logotipo{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

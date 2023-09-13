@@ -1,0 +1,53 @@
+#cabecalho{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    border: 1px solid  #000;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+#logotipo{
+    float: left;
+    height: 80px;
+    width: 80px;
+    
+}
+#logotipo img{
+    float: left;
+    width: 100px;
+    margin-top: -20px;
+     
+}
+
+#buscar{
+    float: left;
+    margin-top: 10px;
+    margin-left: 67%;
+}
+@media (max-width: 1200px) {
+    #cabecalho{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #buscar{
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       align-items: center;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    #logotipo img{
+        display: flex;
+        flex-direction: column;
+        width: 70px;
+        margin-left: auto;
+        margin-right: auto;
+ 
+    }
+    
+}
